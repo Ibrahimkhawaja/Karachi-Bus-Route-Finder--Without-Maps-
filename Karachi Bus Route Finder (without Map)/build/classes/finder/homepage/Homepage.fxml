@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="833.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finder.homepage.HomepageController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="833.0" opacity="0.4" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/A-3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="70.0" layoutX="111.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/homeBus1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="70.0" layoutX="667.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/homeRoute1.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="37.0" layoutY="236.0" prefHeight="80.0" prefWidth="230.0" text="Tracks the routes of various buses &#10;along with their  stops from where &#10;the relevant bus passes. It also &#10;provides the approximation of fares." textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="106.0" layoutY="334.0" mnemonicParsing="false" onAction="#busesButton" prefHeight="36.0" prefWidth="70.0" text="Go">
+         <tooltip>
+            <Tooltip text="Go to buses to track routes and more...." />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label layoutX="119.0" layoutY="206.0" text="BUSES">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="669.0" layoutY="206.0" text="ROUTES">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="662.0" layoutY="334.0" mnemonicParsing="false" onAction="#routesButton" prefHeight="36.0" prefWidth="70.0" text="Go">
+         <tooltip>
+            <Tooltip text="Go to routes to track buses and more..." />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <ImageView fitHeight="60.0" fitWidth="70.0" layoutX="400.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/mainIcon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="391.0" layoutY="206.0" text="ABOUT APP">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="398.0" layoutY="334.0" mnemonicParsing="false" onAction="#aboutAppMoreButton" prefHeight="36.0" prefWidth="70.0" text="More">
+         <tooltip>
+            <Tooltip text="Further information on app" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label alignment="CENTER" layoutX="582.0" layoutY="236.0" prefHeight="80.0" prefWidth="230.0" text="This finds the the buses for the &#10;desirable destination of the users&#10;with the shortest path and best &#10;suggestion." textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="291.0" layoutY="227.0" prefHeight="80.0" prefWidth="284.0" text="This user applictaion &quot;Buses &amp; Routes Finder&quot;&#10;is a conveinient app for public transport &#10;travelers in Karachi." textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="aboutUs" layoutX="749.0" layoutY="14.0" mnemonicParsing="false" onAction="#aboutUsButton" prefHeight="36.0" prefWidth="70.0" text="About Us">
+         <tooltip>
+            <Tooltip text="Our aim and contact details" />
+         </tooltip>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</Pane>
